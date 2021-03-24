@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.3.6)  24 MAR 2021 01:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.3.6)  24 MAR 2021 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1417,26 +1417,13 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-(./ee18btech11029.aux
-
-LaTeX Warning: Label `yn' multiply defined.
-
-
-LaTeX Warning: Label `yn' multiply defined.
-
-
-LaTeX Warning: Label `yn' multiply defined.
-
-
-LaTeX Warning: Label `yn' multiply defined.
-
-)
+No file ee18btech11029.aux.
 \openout1 = `ee18btech11029.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 65.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 65.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 65.
@@ -1555,10 +1542,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
-
-(./ee18btech11029.out) (./ee18btech11029.out)
 \@outlinefile=\write4
 \openout4 = `ee18btech11029.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@lstlisting=\count373
 \c@theorem=\count374
@@ -1569,7 +1558,6 @@ LaTeX Info: Redefining \nameref on input line 65.
 \c@rem=\count379
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14
 8.
-
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
@@ -1666,6 +1654,9 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 430--431
  []
 
 
+LaTeX Warning: Reference `YN' on page 3 undefined on input line 448.
+
+
 Underfull \hbox (badness 1769) in paragraph at lines 435--449
 []$\OML/txmi/m/it/12 y\OT1/txr/m/n/12 (\OML/txmi/m/it/12 n\OT1/txr/m/n/12 )$ ca
 n be cal-cu-lated by ap-ply-ing IFFT
@@ -1694,39 +1685,48 @@ Overfull \hbox (1.72246pt too wide) detected at line 611
  []
 
 [5]
-Overfull \hbox (6.21854pt too wide) detected at line 1014
+Overfull \hbox (6.21854pt too wide) detected at line 1015
 [] [] \OT1/txr/m/n/12 = [] []
  []
 
 
-Overfull \hbox (46.23854pt too wide) detected at line 1108
+Overfull \hbox (46.23854pt too wide) detected at line 1109
 [] [] \OT1/txr/m/n/12 = [] []
  []
 
 [6] [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1193.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1193.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1194.
  (./ee18btech11029.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1193.
-
-Package rerunfilecheck Info: File `ee18btech11029.out' has not changed.
-(rerunfilecheck)             Checksum: 14FE73FCF8FC3B6A245E462E8D713F94;170.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1194.
 
 
-LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1193.
+Package rerunfilecheck Warning: File `ee18btech11029.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ee18btech11029.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  14FE73FCF8FC3B6A245E462E8D713F94;170.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1194.
  ) 
 Here is how much of TeX's memory you used:
- 39444 strings out of 483141
- 894414 string characters out of 5965178
- 1353652 words of memory out of 5000000
- 53697 multiletter control sequences out of 15000+600000
+ 39433 strings out of 483141
+ 894254 string characters out of 5965178
+ 1353293 words of memory out of 5000000
+ 53692 multiletter control sequences out of 15000+600000
  583452 words of font info for 133 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
  60i,17n,91p,461b,1150s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ee18btech11029.dvi (7 pages, 103584 bytes).
+Output written on ee18btech11029.dvi (7 pages, 103184 bytes).
