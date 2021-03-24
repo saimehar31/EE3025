@@ -485,7 +485,7 @@ using property c, we get,
 
 \item
 Let us take  $F_{N}$ as the N-point DFT Matrix. \\
-By the property of Complex Exponentials we can write $F_{N}$ in terms of $F_{N/2}$
+By the property of Complex Exponentials we can write $F_{N}$ in terms of two $F_{N/2}$ terms\\
 \begin{equation}
 F_{N}=
 \begin{bmatrix}
@@ -498,167 +498,44 @@ F_{N/2} & 0 \\
 \end{bmatrix}
 P_{N}
 \end{equation}
-For N = 6
+For N = 8
 \begin{equation}
-\implies F_{6}=
+\implies F_{8}=
 \begin{bmatrix}
-I_{3} & D_{3} \\
-I_{3} & -D_{3}
+I_{4} & D_{4} \\
+I_{4} & -D_{4}
 \end{bmatrix}
 \begin{bmatrix}
-F_{3} & 0 \\
-0 & F_{3}
+F_{4} & 0 \\
+0 & F_{4}
 \end{bmatrix}
-P_{6}
+P_{8}
 \end{equation}
-Here
-$I_{3}$ is the 3x3 identity matrix. Writing matrices in block form :
+where
+$I_{4}$ is the 4x4 identity matrix
 \begin{equation}
-D_{3}=
+D_{4}=
 \begin{bmatrix}
-1 & 0 & 0 \\
-0 & W^{1}_{3} & 0 \\
-0 & 0 & W^{2}_{3}
+1 & 0 & 0 & 0\\
+0 & W^{1}_{4} & 0 & 0\\
+0 & 0 & W^{2}_{4} & 0\\
+0 & 0 & 0 & W^{3}_{4}
 \end{bmatrix}
 \end{equation}
 \begin{equation}
-P_{6} =
+P_{8} =
 \begin{bmatrix}
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1
 \end{bmatrix} 
-\end{equation}
-\begin{equation}
-\implies P_{6}
-\begin{bmatrix}
-x(0) \\ 
-x(1) \\ 
-x(2) \\ 
-x(3) \\ 
-x(4) \\ 
-x(5)
-\end{bmatrix}
-= 
-\begin{bmatrix}
-x(0) \\ 
-x(2) \\ 
-x(4) \\ 
-x(1) \\ 
-x(3) \\ 
-x(5)
-\end{bmatrix}
-\end{equation}
-Let 
-\begin{equation}
-\begin{bmatrix}
-X_{1}(0) \\ 
-X_{1}(1) \\ 
-X_{1}(2) 
-\end{bmatrix}
-= F_{N/2}
-\begin{bmatrix}
-x(0) \\ 
-x(2) \\ 
-x(4) \\ 
-\end{bmatrix}
-\end{equation}
-\begin{equation}
-\begin{bmatrix}
-X_{2}(0) \\ 
-X_{2}(1) \\ 
-X_{2}(2) 
-\end{bmatrix}
-= F_{N/2}
-\begin{bmatrix}
-x(1) \\ 
-x(3) \\ 
-x(5) \\ 
-\end{bmatrix}
-\end{equation}
-be the N/2 point DFTs.
-\item
-By replacing the above results in the equation $X = F_{N} x$, we get
-\begin{equation}
-\begin{bmatrix}
-X(0) \\ 
-X(1) \\ 
-X(2) \\ 
-X(3) \\ 
-X(4) \\ 
-X(5) 
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & 0 & 0 & W^{0}_{6} & 0 & 0\\
-0 & 1 & 0 &  0 & W^{1}_{6} & 0\\
-0 & 0 & 1 & 0 & 0 & W^{2}_{6}\\
-1 & 0 & 0 & -W^{0}_{6} & 0 & 0\\
-0 & 1 & 0 & 0 & -W^{1}_{6} & 0\\
-0 & 0 & 1 & 0 & 0 & -W^{2}_{6}
-\end{bmatrix}
-\begin{bmatrix}
-X_{1}(0) \\ 
-X_{1}(1)\\ 
-X_{1}(2)\\ 
-X_{2}(0) \\ 
-X_{2}(1) \\ 
-X_{2}(2)
-\end{bmatrix}  
-\end{equation}
-Using the above method breaking the N-point DFT into two N/2-point DFT's we get
-\begin{equation}
-\begin{bmatrix}
-X(0) \\ 
-X(1) \\ 
-X(2) \\ 
-\end{bmatrix}
-=
-\begin{bmatrix}
-X_{1}(0) \\ 
-X_{1}(1)\\ 
-X_{1}(2)\\
-\end{bmatrix}
-+
-\begin{bmatrix}
-W^{0}_{6} & 0 & 0\\
-0 & W^{1}_{6} & 0\\
-0 & 0 & W^{2}_{6}\\
-\end{bmatrix}
-\begin{bmatrix}
-X_{2}(0) \\ 
-X_{2}(1) \\ 
-X_{2}(2)
-\end{bmatrix}
-\end{equation}
-\begin{equation}
-\begin{bmatrix}
-X(3) \\ 
-X(4) \\ 
-X(5) 
-\end{bmatrix}
-=
-\begin{bmatrix}
-X_{1}(0) \\  
-X_{1}(1)\\ 
-X_{1}(2)\\
-\end{bmatrix}
--
-\begin{bmatrix}
-W^{0}_{6} & 0 & 0\\
-0 & W^{1}_{6} & 0\\
-0 & 0 & W^{2}_{6}\\
-\end{bmatrix}
-\begin{bmatrix}
-X_{2}(0) \\ 
-X_{2}(1) \\ 
-X_{2}(2)
-\end{bmatrix} 
-\end{equation}
-Hence the time complexity is reduced from O($N^{2}$) to O(NlogN). 
+\end{equation}\\
+
 \item If we have $N = 2^{M}$ where $M \in \mathbb{Z^{+}}$  then we can recursively breakdown N/2 point DFT Matrix into N/4 point DFT Matrix and so on till we reach 2-point DFT Matrix.\\
 for N = 8, we can write,
 \begin{equation}
@@ -707,7 +584,7 @@ x_{1}+x_{2} \\
 x_{1}-x_{2}
 \end{bmatrix}
 \end{equation}
-\item Step by Step visualization of computing 8-Point DFT recursively using 4-point DFT's and 2-point DFT's.Expressing 8-point DFT's in terms of 4-point DFT's.
+\item Visualization of computing 8-Point DFT recursively using 4-point DFT's and 2-point DFT's.Expressing 8-point DFT's in terms of 4-point DFT's.
 \begin{equation}
 \begin{bmatrix}
 X(0) \\ 
