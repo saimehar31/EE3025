@@ -32,7 +32,7 @@ plt.plot(Omega,H_analog_bp)
 plt.grid()
 plt.savefig('../../figs/iir/ee18btech11029_bandpass_analog.eps')
 plt.savefig('../../figs/iir/ee18btech11029_bandpass_analog.pdf')
-#subprocess.run(shlex.split("termux-open ../../figs/iir/AnalogBandpass.pdf"))
+#subprocess.run(shlex.split("termux-open ../../figs/iir/ee18btech11029_bandpass_analog.pdf"))
 
 dignum,digden,G = bilin(den,Omega_p1)
 omega = np.arange(-2*np.pi/5,(np.pi/1000)+2*np.pi/5, (np.pi/1000))
@@ -44,7 +44,7 @@ plt.plot(omega/np.pi,H_dig_bp)
 plt.grid()
 plt.savefig('../../figs/iir/ee18btech11029_bandpass_digital.eps')
 plt.savefig('../../figs/iir/ee18btech11029_bandpass_digital.pdf')
-#subprocess.run(shlex.split("termux-open ../../figs/iir/DigitalBandpass.pdf"))
+#subprocess.run(shlex.split("termux-open ../../figs/iir/ee18btech11029_bandpass_digital.pdf"))
 
 plt.show()
 iir_num = G*dignum
