@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.3.6)  24 APR 2021 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.3.6)  25 APR 2021 01:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -94,46 +94,57 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 [1
 
 ] [2]
-File: figs/iir/Varying_epsilon.eps Graphic file (type eps)
- <figs/iir/Varying_epsilon.eps>
+File: figs/iir/varyingepsilon.eps Graphic file (type eps)
+ <figs/iir/varyingepsilon.eps>
 Overfull \hbox (81.79134pt too wide) in paragraph at lines 140--141
 [][] 
  []
 
-File: figs/iir/Analog_LP_cheb.eps Graphic file (type eps)
-<figs/iir/Analog_LP_cheb.eps>
+File: figs/iir/ee18btech11029_LPcheb.eps Graphic file (type eps)
+<figs/iir/ee18btech11029_LPcheb.eps>
 Overfull \hbox (81.79134pt too wide) in paragraph at lines 147--148
 [][] 
  []
 
-File: figs/iir/BP_analog.eps Graphic file (type eps)
-<figs/iir/BP_analog.eps>
+File: figs/iir/ee18btech11029_bandpass_analog.eps Graphic file (type eps)
+<figs/iir/ee18btech11029_bandpass_analog.eps>
 Overfull \hbox (81.79134pt too wide) in paragraph at lines 153--154
 [][] 
  []
 
-[3] [4] [5] [6] [7]
-File: figs/fir/lowpass.eps Graphic file (type eps)
- <figs/fir/lowpass.eps>
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 251--252
+[3] [4] [5] [6]
+File: figs/iir/ee18btech11029_bandpass_digital.eps Graphic file (type eps)
+ <figs/iir/ee18btech11029_bandpass_digital.eps>
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 183--184
 [][] 
  []
 
-[8] [9]
-File: figs/fir/bandpass.eps Graphic file (type eps)
- <figs/fir/bandpass.eps>
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 272--273
+[7] [8]
+File: figs/fir/ee18btech11029_lowpass.eps Graphic file (type eps)
+ <figs/fir/ee18btech11029_lowpass.eps>
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 255--256
 [][] 
  []
 
-[10] (./ee18btech11029.aux) ) 
+[9] [10]
+File: figs/fir/ee18btech11029_bandpass.eps Graphic file (type eps)
+ <figs/fir/ee18btech11029_bandpass.eps>
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 276--277
+[][] 
+ []
+
+[11] (./ee18btech11029.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 819 strings out of 483141
- 12423 string characters out of 5965178
+ 824 strings out of 483141
+ 12837 string characters out of 5965178
  244036 words of memory out of 5000000
- 15882 multiletter control sequences out of 15000+600000
+ 15886 multiletter control sequences out of 15000+600000
  536799 words of font info for 39 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  30i,12n,25p,533b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ee18btech11029.dvi (10 pages, 19060 bytes).
+Output written on ee18btech11029.dvi (11 pages, 19472 bytes).
