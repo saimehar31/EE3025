@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.3.6)  24 APR 2021 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.3.6)  24 APR 2021 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -57,7 +57,7 @@ File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
 \g__pdf_backend_link_int=\count177
 \g__pdf_backend_link_sf_int=\count178
 )
-No file ee18btech11029.aux.
+(./ee18btech11029.aux)
 \openout1 = `ee18btech11029.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -86,38 +86,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 27.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 6.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
- [1
+[1
 
-]
-
-LaTeX Warning: Reference `lpfirst' on page 2 undefined on input line 78.
-
-[2]
-
-LaTeX Warning: Reference `lpfirst' on page 3 undefined on input line 103.
-
-
-LaTeX Warning: Reference `lppoles' on page 3 undefined on input line 115.
-
-
-LaTeX Warning: Reference `poleleft' on page 3 undefined on input line 115.
-
-
-LaTeX Warning: Reference `lpsqfinal' on page 3 undefined on input line 120.
-
-
-LaTeX Warning: Reference `lpfinal' on page 3 undefined on input line 120.
-
-
-LaTeX Warning: Reference `lpfinal' on page 3 undefined on input line 121.
-
+] [2]
 File: figs/iir/Varying_epsilon.eps Graphic file (type eps)
-<figs/iir/Varying_epsilon.eps>
+ <figs/iir/Varying_epsilon.eps>
 Overfull \hbox (81.79134pt too wide) in paragraph at lines 140--141
 [][] 
  []
@@ -128,58 +106,18 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 147--148
 [][] 
  []
 
-
-LaTeX Warning: Reference `lpsqfinal' on page 3 undefined on input line 148.
-
-
-LaTeX Warning: Reference `lpfinal' on page 3 undefined on input line 148.
-
-
-LaTeX Warning: Reference `lpsqfinal' on page 3 undefined on input line 148.
-
-
-LaTeX Warning: Reference `lpfinal' on page 3 undefined on input line 148.
-
 File: figs/iir/BP_analog.eps Graphic file (type eps)
 <figs/iir/BP_analog.eps>
 Overfull \hbox (81.79134pt too wide) in paragraph at lines 153--154
 [][] 
  []
 
-
-LaTeX Warning: Reference `bpfinal' on page 3 undefined on input line 154.
-
-[3] [4] [5] [6]
-
-LaTeX Warning: Reference `bpfinal' on page 7 undefined on input line 163.
-
-
-LaTeX Warning: Reference `analdig' on page 7 undefined on input line 163.
-
-[7]
-
-LaTeX Warning: Reference `kaisercond' on page 8 undefined on input line 230.
-
-
-LaTeX Warning: Reference `kaiser' on page 8 undefined on input line 232.
-
-
-LaTeX Warning: Reference `firlpdef' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Reference `rect' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Reference `firlpfinal' on page 8 undefined on input line 247.
-
+[3] [4] [5] [6] [7]
 File: figs/fir/lowpass.eps Graphic file (type eps)
-<figs/fir/lowpass.eps>
+ <figs/fir/lowpass.eps>
 Overfull \hbox (81.79134pt too wide) in paragraph at lines 251--252
 [][] 
  []
-
-
-LaTeX Warning: Reference `firlpfinal' on page 8 undefined on input line 262.
 
 [8] [9]
 File: figs/fir/bandpass.eps Graphic file (type eps)
@@ -188,21 +126,14 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 272--273
 [][] 
  []
 
-[10] (./ee18btech11029.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[10] (./ee18btech11029.aux) ) 
 Here is how much of TeX's memory you used:
  819 strings out of 483141
- 12406 string characters out of 5965178
+ 12423 string characters out of 5965178
  244036 words of memory out of 5000000
- 15883 multiletter control sequences out of 15000+600000
- 537107 words of font info for 40 fonts, out of 8000000 for 9000
+ 15882 multiletter control sequences out of 15000+600000
+ 536799 words of font info for 39 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  30i,12n,25p,533b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ee18btech11029.dvi (10 pages, 19240 bytes).
+Output written on ee18btech11029.dvi (10 pages, 19060 bytes).

@@ -11,5 +11,5 @@ for epsilon in np.arange(0.35,0.6,0.05):
     Omega = np.concatenate((Omega1,Omega2))
     plt.plot(Omega,H,label='$\epsilon$ = '+str(round(epsilon,2)))
 plt.legend()
-plt.savefig("Varying_epsilon.eps")
+plt.savefig("varyingepsilon.eps")
 plt.show()
